@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container mt-3">
-    <a href="<c:url value="/index"/>">На главную</a>
+    <a href="<c:url value="/index"/>">To the main</a>
     <div class="row">
         <h4>Create/Edit post</h4>
     </div>

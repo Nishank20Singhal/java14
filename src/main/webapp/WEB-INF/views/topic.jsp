@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="container pt-3">
-    <a href="<c:url value="/index"/>">На главную</a>
+    <a href="<c:url value="/index"/>">To the main</a>
     <div class="row">
         <div class="card" style="width: 100%">
             <div class="card-header">
