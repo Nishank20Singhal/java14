@@ -1,0 +1,17 @@
+language: java
+jdk:
+  - openjdk14
+sudo: false
+install: true
+script: mvn clean package -DskipTests=true
+notifications:
+  email:
+    recipients:
+      - esfero1505@gmail.com
+    on_success: never
+    on_failure: always
+deploy:
+  provider: heroku
+  api_key:
+    secure: nMIGJAoGBAKY1mJtfyxF51Z8XSE4q/kLixEUegc4UGyP0lTH/URfJ3Yg7HzNwOXNg\nxWYtBWg8foI6H71J25iDGFYFA7ihY1GwDDlfd/RmYzBHD3nrVRdzYvvqKZgAfS9J\nvQnqfMVBRNYlP6osvgf394BvOTCrXh7WEQX6zLD0PO1wKgIEHhBzAgMBAAE=
+    app: arcane-badlands-51939
